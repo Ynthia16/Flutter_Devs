@@ -1,6 +1,10 @@
-# FLUTTERJOURNEY
+# AgroSales
 
-A new Flutter project.
+A journey towards realizing our agritech project for trimester 2.3 using Flutter and other technologies.
+
+## About The Project
+
+Agrosales is poised to revolutionize the agriculture landscape in Rwanda and Africa at large, one transaction at a time. We provide a marketplace mobile application that enables farmers to compete fairly in the market without the hassle of middlemen.Understanding the structural barriers in many african countries, we are also providing the services on the mobile app via USSD technology. We also noticed that farmers dont have access to expert knowledge in all matters agriculture hence our app will feature an agronomy support section where farmers get realtime information and advice for better agricultura; experiences.
 
 ## Getting Started
 
