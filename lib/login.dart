@@ -18,16 +18,16 @@ class Login extends StatelessWidget {
                 leading: const Icon(Icons.arrow_back_ios_new,
                     size: 15, color: Color.fromARGB(234, 255, 255, 255)),
               )),
-          Expanded(
-            child: Image.asset(
+          
+            Image.asset(
               'assets/images/flutterImage1.png',
-              // width: 150,
+              width: 150,
               // height: 120,
               // color: const Color.fromARGB(0, 184, 85, 85),
-              colorBlendMode: BlendMode.multiply,
-              fit: BoxFit.fitWidth,
+              // colorBlendMode: BlendMode.multiply,
+              // fit: BoxFit.contain,
             ),
-          ),
+          
           Container(
               // padding: const EdgeInsets.fromLTRB(0, 0, 0, 5),
               margin: const EdgeInsets.fromLTRB(23, 10, 30, 5),
