@@ -1,3 +1,7 @@
+Contributors:
+
+@cynthianekesa @Aristote-code @Ynthia16
+
 # AgroSales
 
 A journey towards realizing our agritech project for trimester 2.3 using Flutter and other technologies.
