@@ -1,54 +1,53 @@
-Contributors:
-
-@cynthianekesa @Aristote-code @Ynthia16
-
-# AgroSales
-
-A journey towards realizing our agritech project for trimester 2.3 using Flutter and other technologies.
+# AgroSales: Agritech Project for Trimester 2.3 using Flutter
 
 ## About The Project
 
-Agrosales is poised to revolutionize the agriculture landscape in Rwanda and Africa at large, one transaction at a time. We provide a marketplace mobile application that enables farmers to compete fairly in the market without the hassle of middlemen.Understanding the structural barriers in many african countries, we are also providing the services on the mobile app via USSD technology. We also noticed that farmers dont have access to expert knowledge in all matters agriculture hence our app will feature an agronomy support section where farmers get realtime information and advice for better agricultura; experiences.
+AgroSales aims to revolutionize the agricultural landscape in Rwanda and Africa by providing a marketplace mobile application. This platform enables farmers to compete fairly in the market without middlemen. Understanding the structural barriers in many African countries, the app also offers services via USSD technology. Additionally, it features an agronomy support section where farmers can access real-time information and advice to enhance their agricultural practices.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project serves as a starting point for developing a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### Useful Resources for Beginners:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+For further assistance with Flutter development, explore the [online documentation](https://docs.flutter.dev/), which provides tutorials, samples, mobile development guidance, and a comprehensive API reference.
 
-## Assignment 1-Week Ending 31st May
+## Assignment 1 - Week Ending 31st May
 
-#### Instructions
+### Instructions
 
-* In your project groups, come up with an exercise(recommended to use your project) that incorporates all these widgets, and submit it on Canvas Friday night. We need volunteer groups to present and demonstrate some of these widgets in the next session on Friday  (Note: it will be graded towards participation)
-Each group will have a researcher who checks the documentation on how to implement a widget/component, coder, and debugger to ensure good code quality. Roles will be swapped every 5 mins.
+In your project groups, design an exercise incorporating all the following widgets and submit it on Canvas by Friday night. Volunteers from each group will demonstrate some of these widgets in the next session on Friday. Participation in the presentation will be graded.
 
-* Refer to https://docs.flutter.dev/ui/widgets for the widgets below and complete 
+Each group should assign roles as follows: 
+- Researcher: Checks the documentation on how to implement a widget/component.
+- Coder: Implements the widget/component.
+- Debugger: Ensures good code quality.
 
-* the task on the next slide in your project groups:
+Roles should be swapped every 5 minutes.
 
-MaterialApp, Scaffold, Center, Row, Column, Listview, Stack, Grid
-Expanded, Align, Text, Buttons(text, elevated, outlined, etc),  
-Container, Padding, Transform, ConstrainedBox, 
-FittedBox, RotatedBox, SizedBox, Positioned 
-Icons, Image, Chip, Menu Items.
-AppBar, BottonNavigationBar, FloatingActionButton(FAB)
+### Widgets to Implement
 
-* Submission type: Everyone in the team will submit a GitHub link your your work. It's highly recommended that you implement these widgets in your actual projects to make sure that every week you are making progress.
+Refer to [Flutter Widgets](https://docs.flutter.dev/ui/widgets) for documentation and implement the following in your project:
 
+- **Basic Widgets**: `MaterialApp`, `Scaffold`, `Center`, `Row`, `Column`, `ListView`, `Stack`, `Grid`
+- **Layout Widgets**: `Expanded`, `Align`, `Container`, `Padding`, `Transform`, `ConstrainedBox`, `FittedBox`, `RotatedBox`, `SizedBox`, `Positioned`
+- **Interactive Widgets**: `Buttons` (Text, Elevated, Outlined, etc.), `Chip`, `Menu Items`
+- **Display Widgets**: `Text`, `Icons`, `Image`
+- **App Structure and Navigation**: `AppBar`, `BottomNavigationBar`, `FloatingActionButton (FAB)`
 
-* This is a graded activity and I will be looking at the commits from every team member. Less commitment to the project repo means you get fewer marks.
+### Submission Guidelines
 
-* There are NO Deadline Extensions for these weekly activities, once you miss it, don't reach out to the coach.
+Each team member must submit a GitHub link to their work. It is recommended to integrate these widgets into your actual project to ensure consistent progress.
 
+This is a graded activity, and individual contributions will be assessed based on commits. Lack of commitment will result in fewer marks. Note that there are no deadline extensions for these weekly activities; missed submissions will not be reconsidered.
 
-## Assignment 2-
+## Assignment 2
 
+(To be provided in the future)
 
+---
+
+Contributors: @cynthianekesa, @Aristote-code, @Ynthia16
