@@ -22,7 +22,7 @@ samples, guidance on mobile development, and a full API reference.
 * In your project groups, come up with an exercise(recommended to use your project) that incorporates all these widgets, and submit it on Canvas Friday night. We need volunteer groups to present and demonstrate some of these widgets in the next session on Friday  (Note: it will be graded towards participation)
 Each group will have a researcher who checks the documentation on how to implement a widget/component, coder, and debugger to ensure good code quality. Roles will be swapped every 5 mins.
 
-* Refer to the Flutter official documentationLinks to an external site. for the widgets below and complete 
+* Refer to https://docs.flutter.dev/ui/widgets for the widgets below and complete 
 
 * the task on the next slide in your project groups:
 
