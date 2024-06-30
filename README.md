@@ -1,53 +1,89 @@
-# AgroSales: Agritech Project for Trimester 2.3 using Flutter
+# Project README
 
-## About The Project
-
-AgroSales aims to revolutionize the agricultural landscape in Rwanda and Africa by providing a marketplace mobile application. This platform enables farmers to compete fairly in the market without middlemen. Understanding the structural barriers in many African countries, the app also offers services via USSD technology. Additionally, it features an agronomy support section where farmers can access real-time information and advice to enhance their agricultural practices.
+## Introduction
+Welcome to our mobile application project. This README file will guide you through the initial setup and help you run the application. Please note that we are still in the process of integrating all functionalities. This document will provide the necessary steps to navigate through the main screens of the application.
 
 ## Getting Started
+To run this application, please follow the instructions below.
 
-This project serves as a starting point for developing a Flutter application.
+## Navigating Through the Application
+The application currently includes different main screens for buyers and farmers. To view these screens, you need to uncomment the relevant code sections in `main.dart` and the login screen navigation buttons.
 
-### Useful Resources for Beginners:
+### Viewing the Buyer's Main Screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. **Ensure that the `MainScreenBuyer` is uncommented as the last screen:**
 
-For further assistance with Flutter development, explore the [online documentation](https://docs.flutter.dev/), which provides tutorials, samples, mobile development guidance, and a comprehensive API reference.
+    ```dart
+    // other imports and code
+    void main() {
+      runApp(MyApp());
+    }
 
-## Assignment 1 - Week Ending 31st May
+    class MyApp extends StatelessWidget {
+      @override
+      Widget build(BuildContext context) {
+        return MaterialApp(
+          title: 'Your App Name',
+          home: MainScreenBuyer(), // Uncomment this line
+          // home: MainScreenFarmer(), // Make sure this line is commented
+        );
+      }
+    }
+    ```
 
-### Instructions
+2. **Go to the login screen file. Uncomment the navigation to `MainScreenBuyer` in the button's `onPressed` event:**
 
-In your project groups, design an exercise incorporating all the following widgets and submit it on Canvas by Friday night. Volunteers from each group will demonstrate some of these widgets in the next session on Friday. Participation in the presentation will be graded.
+    ```dart
+    // other imports and code
+    onPressed: () {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => MainScreenBuyer()), // Uncomment this line
+        // MaterialPageRoute(builder: (context) => MainScreenFarmer()), // Make sure this line is commented
+      );
+    },
+    ```
 
-Each group should assign roles as follows: 
-- Researcher: Checks the documentation on how to implement a widget/component.
-- Coder: Implements the widget/component.
-- Debugger: Ensures good code quality.
+### Viewing the Farmer's Home Dashboard
 
-Roles should be swapped every 5 minutes.
+1. **Open `main.dart`. Ensure that the `MainScreenFarmer` is uncommented as the last screen:**
 
-### Widgets to Implement
+    ```dart
+    // other imports and code
+    void main() {
+      runApp(MyApp());
+    }
 
-Refer to [Flutter Widgets](https://docs.flutter.dev/ui/widgets) for documentation and implement the following in your project:
+    class MyApp extends StatelessWidget {
+      @override
+      Widget build(BuildContext context) {
+        return MaterialApp(
+          title: 'Your App Name',
+          home: MainScreenFarmer(), // Uncomment this line
+          // home: MainScreenBuyer(), // Make sure this line is commented
+        );
+      }
+    }
+    ```
 
-- **Basic Widgets**: `MaterialApp`, `Scaffold`, `Center`, `Row`, `Column`, `ListView`, `Stack`, `Grid`
-- **Layout Widgets**: `Expanded`, `Align`, `Container`, `Padding`, `Transform`, `ConstrainedBox`, `FittedBox`, `RotatedBox`, `SizedBox`, `Positioned`
-- **Interactive Widgets**: `Buttons` (Text, Elevated, Outlined, etc.), `Chip`, `Menu Items`
-- **Display Widgets**: `Text`, `Icons`, `Image`
-- **App Structure and Navigation**: `AppBar`, `BottomNavigationBar`, `FloatingActionButton (FAB)`
+2. **Go to the login screen file. Uncomment the navigation to `MainScreenFarmer` in the button's `onPressed` event:**
 
-### Submission Guidelines
+    ```dart
+    // other imports and code
+    onPressed: () {
+      Navigator.push(
+        context,
+        MaterialPageRoute(builder: (context) => MainScreenFarmer()), // Uncomment this line
+        // MaterialPageRoute(builder: (context) => MainScreenBuyer()), // Make sure this line is commented
+      );
+    },
+    ```
 
-Each team member must submit a GitHub link to their work. It is recommended to integrate these widgets into your actual project to ensure consistent progress.
+## Troubleshooting
+If you encounter errors after uncommenting the code, ensure only one screen is uncommented at a time. If issues persist, try deleting the screen reference and re-adding it.
 
-This is a graded activity, and individual contributions will be assessed based on commits. Lack of commitment will result in fewer marks. Note that there are no deadline extensions for these weekly activities; missed submissions will not be reconsidered.
+## Next Steps
+Our next steps involve integrating the remaining functionalities to make the app fully operational. Stay tuned for updates.
 
-## Assignment 2
-
-(To be provided in the future)
-
----
-
-Contributors: @cynthianekesa, @Aristote-code, @Ynthia16
+## Contact
+If you face any challenges or have questions, please reach out to us. We are here to help you.
